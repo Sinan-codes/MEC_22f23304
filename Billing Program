@@ -5,6 +5,12 @@ class Main{
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     int amount = sc.nextInt();
+    
+    //Discount
+    if (amount>50){
+      amount = amount * 0.5;
+    }
+
     System.out.println("Amount: "+amount);
   }
 }
